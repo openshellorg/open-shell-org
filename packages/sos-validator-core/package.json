@@ -1,0 +1,12 @@
+{
+    "name": "@sos/validator-core",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+        "@sos/grammar": "workspace:*"
+    },
+    "exports": {
+        ".": "./src/index.ts"
+    }
+}

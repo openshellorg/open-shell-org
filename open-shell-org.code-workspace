@@ -1,0 +1,87 @@
+{
+	"folders": [
+		{
+			"name": "Root",
+			"path": "."
+		},
+		{
+			"name": "Docs (Starlight)",
+			"path": "apps/docs"
+		},
+		{
+			"name": "Main (SolidStart)",
+			"path": "apps/main"
+		},
+		{
+			"name": "SOS Grammar",
+			"path": "packages/sos-grammar"
+		},
+		{
+			"name": "Validator Core",
+			"path": "packages/sos-validator-core"
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/node_modules": true,
+			"**/.git": true,
+			"**/.next": true,
+			"**/dist": true
+		},
+		"search.exclude": {
+			"**/node_modules": true,
+			"**/.git": true,
+			"**/.next": true
+		},
+		"editor.tabSize": 2,
+		"editor.defaultFormatter": "biomejs.biome",
+		"editor.formatOnSave": true,
+
+		// Language settings
+		"[markdown]": {
+			"editor.wordWrap": "on",
+			"editor.defaultFormatter": "yzhang.markdown-all-in-one",
+			"editor.formatOnSave": true
+		},
+		"[yaml]": {
+			"editor.defaultFormatter": "redhat.vscode-yaml"
+		},
+
+		// IMPORTANT: Language-specific overrides are required to ensure workspace settings 
+		// take precedence over any individual User-level language defaults (like Prettier).
+		"[javascript]": {
+			"editor.defaultFormatter": "biomejs.biome"
+		},
+		"[typescript]": {
+			"editor.defaultFormatter": "biomejs.biome"
+		},
+		"[javascriptreact]": {
+			"editor.defaultFormatter": "biomejs.biome"
+		},
+		"[typescriptreact]": {
+			"editor.defaultFormatter": "biomejs.biome"
+		},
+		"[json]": {
+			"editor.defaultFormatter": "biomejs.biome"
+		},
+		"[jsonc]": {
+			"editor.defaultFormatter": "biomejs.biome"
+		},
+		"[code-workspace]": {
+			"editor.defaultFormatter": "biomejs.biome"
+		},
+		"[css]": {
+			"editor.defaultFormatter": "biomejs.biome"
+		},
+		"[graphql]": {
+			"editor.defaultFormatter": "biomejs.biome"
+		},
+
+		"markdownlint.config": {
+			"MD033": false
+		},
+		"scm.alwaysShowRepositories": true,
+		"scm.providerCountBadge": "auto",
+		"git.closeDiffOnOperation": true
+	}
+}
