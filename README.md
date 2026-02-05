@@ -1,6 +1,6 @@
 # Open Shell Organization (OSO)
 
-The **Open Shell Organization** is a community-driven initiative focused on improving shell command-line interfaces through standardization and tooling.
+The **Open Shell Organization** is a community-driven initiative focused on improving shell command-line interfaces through standardization, certification, and tooling.
 
 ## 🎯 Mission
 
