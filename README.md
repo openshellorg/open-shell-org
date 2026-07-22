@@ -1,12 +1,26 @@
 # Open Shell Organization (OSO)
 
-The **Open Shell Organization** is a community-driven initiative focused on improving shell command-line interfaces through standardization, certification, and tooling.
+The **Open Shell Organization** improves shells and CLIs through **standards, certification, and companion tooling**.
 
-## 🎯 Mission
+## Mission
 
-To create a unified, human-friendly syntax standard for shell commands—**Standardized Operations Syntax (SOS)**—that prioritizes clarity, consistency, and discoverability.
+Two complementary tracks:
 
-## 📦 Monorepo Structure
+1. **Standardized Operations Syntax (SOS)** — unify human-friendly CLI flag syntax and certify compliant tools (“Save Our Syntax”).
+2. **Structured shell architecture** — advocate typed data pipelines (endorse [Nushell](https://www.nushell.sh/)) so stdout is not forced to be both a pipe *and* a display canvas. Do **not** reinvent Nushell; document the model and ship helpers.
+
+SOS remains the certification/flag work in this monorepo. Structured-shell direction lives in sibling repos (below).
+
+## Related projects
+
+| Repo | Role |
+|------|------|
+| [shell-architecture](https://github.com/openshellorg/shell-architecture) | Thesis and layers: structured I/O, SOS, terminals, Dev-Centr relationship |
+| [nu-require](https://github.com/openshellorg/nu-require) | `validate()` — Nushell-tailored CLIs fail clearly outside `nu`, with optional install offer |
+
+Dev-Centr **recommends/configures** Nushell for developers; OpenShellOrg **standardizes and tools**. Keep the orgs aligned, not merged.
+
+## Monorepo Structure
 
 This repository is organized as a pnpm workspace monorepo:
 
