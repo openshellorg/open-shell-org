@@ -16,7 +16,10 @@ SOS remains the certification/flag work in this monorepo. Structured-shell direc
 | Repo | Role |
 |------|------|
 | [shell-architecture](https://github.com/openshellorg/shell-architecture) | Thesis and layers: structured I/O, SOS, terminals, Dev-Centr relationship |
-| [nu-require](https://github.com/openshellorg/nu-require) | `validate()` — Nushell-tailored CLIs fail clearly outside `nu`, with optional install offer |
+| [nu-require](https://github.com/openshellorg/nu-require) | `validate()` — require / relaunch under Nushell; optional install offer |
+| [nu-emit](https://github.com/openshellorg/nu-emit) | C-first API to emit structured rows (JSONL) without hand-rolling JSON |
+
+**Name collision:** We are not [NVIDIA OpenShell](https://github.com/NVIDIA/OpenShell) (agent sandbox runtime). Different problem, similar words.
 
 Dev-Centr **recommends/configures** Nushell for developers; OpenShellOrg **standardizes and tools**. Keep the orgs aligned, not merged.
 
