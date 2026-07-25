@@ -1,0 +1,7 @@
+* xref:index.adoc[Home]
+* The Standard
+** xref:standard-intro.adoc[Introduction]
+** xref:standard-grammar.adoc[Formal Grammar]
+** xref:standard-protocols.adoc[Mandatory Protocols]
+* Certification
+** xref:certification-about.adoc[Certification Program]

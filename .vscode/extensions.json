@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "dprint.dprint",
+    "asciidoctor.asciidoctor-vscode",
+    "redhat.vscode-yaml"
+  ]
+}

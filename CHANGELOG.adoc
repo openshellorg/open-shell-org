@@ -1,0 +1,7 @@
+= Changelog
+
+== 2026-07-25
+
+* Replace Starlight docs app with Antora + Valentus theme 2.0.0 and Pages CI.
+* Add brand assets (`assets/brand/`), `.vscode` settings, and `dprint.jsonc`.
+* Remove `open-shell-org.code-workspace` in favor of `.vscode`.

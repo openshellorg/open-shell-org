@@ -2,6 +2,10 @@
 
 The **Open Shell Organization** improves shells and CLIs through **standards, certification, and companion tooling**.
 
+<p align="center">
+  <img src="assets/brand/logo-mark.svg" width="160" height="160" alt="OpenShellOrg" />
+</p>
+
 ## Mission
 
 Two complementary tracks:
@@ -23,36 +27,30 @@ SOS remains the certification/flag work in this monorepo. Structured-shell direc
 
 Dev-Centr **recommends/configures** Nushell for developers; OpenShellOrg **standardizes and tools**. Keep the orgs aligned, not merged.
 
-## Monorepo Structure
-
-This repository is organized as a pnpm workspace monorepo:
+## Monorepo structure
 
 ```
 open-shell-org/
 ├── apps/
-│   ├── docs/          # Documentation site (Astro Starlight)
-│   └── main/          # Main website (SolidStart)
+│   └── main/              # Main website (SolidStart)
+├── docs/                  # Antora documentation (Valentus theme)
 ├── packages/
 │   ├── sos-grammar/       # @sos/grammar - SOS syntax grammar definitions
 │   └── sos-validator-core/ # @sos/validator-core - Core validation library
+├── assets/brand/          # Logo SVG/PNG (includes 256px GitHub avatar)
 └── package.json
 ```
 
-### Apps
+### Apps and packages
 
-| App | Description | Tech Stack |
-|-----|-------------|------------|
-| `apps/docs` | SOS specification documentation | Astro Starlight |
-| `apps/main` | Organization website | SolidStart |
-
-### Packages
-
-| Package | Description |
-|---------|-------------|
+| Path | Description |
+|------|-------------|
+| `apps/main` | Organization website (SolidStart) |
+| `docs/` | SOS specification (Antora + Valentus 2.0.0) |
 | `@sos/grammar` | Grammar definitions for parsing SOS syntax |
 | `@sos/validator-core` | Core validation logic for SOS compliance |
 
-## 🚀 Getting Started
+## Getting started
 
 ### Prerequisites
 
@@ -62,38 +60,38 @@ open-shell-org/
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/openshellorg/open-shell-org.git
 cd open-shell-org
-
-# Install dependencies
 pnpm install
 ```
 
 ### Development
 
 ```bash
-# Run all apps in development mode
+# Apps / packages
 pnpm dev
-
-# Build all packages and apps
 pnpm build
+
+# Docs (Antora)
+pnpm docs
 ```
 
-## 📖 Documentation
+## Documentation
 
-Visit the [SOS Documentation](./apps/docs) for the full specification and usage guides.
+Published docs: https://openshellorg.github.io/open-shell-org/
 
-## 🤝 Contributing
+Org site: https://openshellorg.github.io/
 
-We welcome contributions! Please see our contributing guidelines for more information.
+## Changelog
 
-## 📄 License
+See link:CHANGELOG.adoc[CHANGELOG.adoc].
+
+## License
 
 This project is open source. See individual packages for specific licensing information.
 
 ---
 
 <p align="center">
-  <strong>Save Our Syntax</strong> 🐚
+  <strong>Save Our Syntax</strong>
 </p>

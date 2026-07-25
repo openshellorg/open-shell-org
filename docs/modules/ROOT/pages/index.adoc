@@ -1,0 +1,33 @@
+= Open Shell Organization
+:description: Standards and tooling for better shells and CLIs.
+
+image::logo.svg[OpenShellOrg,width=160]
+
+The *Open Shell Organization* (OSO) improves shells and CLIs through *standards, certification, and companion tooling*.
+
+== Mission
+
+Two complementary tracks:
+
+. *Standardized Operations Syntax (SOS)* — unify human-friendly CLI flag syntax and certify compliant tools ("Save Our Syntax").
+. *Structured shell architecture* — advocate typed data pipelines (endorse https://www.nushell.sh/[Nushell]) so stdout is not forced to be both a pipe *and* a display canvas.
+
+== Related projects
+
+[cols="1,2"]
+|===
+| Repo | Role
+
+| https://github.com/openshellorg/shell-architecture[shell-architecture]
+| Thesis and layers: structured I/O, SOS, terminals, Dev-Centr relationship
+
+| https://github.com/openshellorg/nu-require[nu-require]
+| `validate()` — require / relaunch under Nushell; optional install offer
+
+| https://github.com/openshellorg/nu-emit[nu-emit]
+| C-first API to emit structured rows (JSONL) without hand-rolling JSON
+|===
+
+*Name collision:* We are not https://github.com/NVIDIA/OpenShell[NVIDIA OpenShell] (agent sandbox runtime).
+
+Dev-Centr *recommends/configures* Nushell for developers; OpenShellOrg *standardizes and tools*. Keep the orgs aligned, not merged.

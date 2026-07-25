@@ -1,0 +1,31 @@
+site:
+  title: OpenShellOrg Docs
+  url: https://openshellorg.github.io/open-shell-org
+  start_page: open-shell-org::index.adoc
+  keys:
+    header_logo: logo.svg
+    site_home_url: https://openshellorg.github.io
+    site_home_label: OpenShellOrg home
+    header_doc_title: OpenShellOrg Docs
+
+content:
+  sources:
+    - url: ./
+      branches: HEAD
+      start_path: docs
+
+ui:
+  bundle:
+    url: https://github.com/antora-supplemental/valentus-theme/releases/download/v2.0.0/ui-bundle.zip
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+
+asciidoc:
+  attributes:
+    experimental: ""
+    idprefix: ""
+    idseparator: "-"
+    page-pagination: ""
+
+output:
+  dir: build/site
