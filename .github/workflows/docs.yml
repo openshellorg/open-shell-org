@@ -7,10 +7,15 @@ on:
       - "docs/**"
       - "supplemental-ui/**"
       - "antora-playbook.yml"
+      - "antora-playbook-local.yml"
       - "package.json"
       - "pnpm-lock.yaml"
       - ".github/workflows/docs.yml"
   workflow_dispatch:
+  repository_dispatch:
+    types: [docs-rebuild]
+  schedule:
+    - cron: "0 6 * * 1"
 
 permissions:
   contents: read

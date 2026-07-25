@@ -6,6 +6,7 @@
     "dev": "pnpm -r dev",
     "build": "pnpm -r build",
     "docs": "antora antora-playbook.yml",
+    "docs:local": "antora antora-playbook-local.yml",
     "format": "dprint fmt",
     "format:check": "dprint check"
   },

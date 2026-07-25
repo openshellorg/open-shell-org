@@ -1,4 +1,5 @@
 * xref:index.adoc[Home]
+* xref:ecosystem.adoc[Ecosystem]
 * The Standard
 ** xref:standard-intro.adoc[Introduction]
 ** xref:standard-grammar.adoc[Formal Grammar]

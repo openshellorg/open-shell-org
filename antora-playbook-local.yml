@@ -13,26 +13,26 @@ content:
     - url: ./
       branches: HEAD
       start_path: docs
-    - url: https://github.com/openshellorg/shell-architecture.git
-      branches: [main]
+    - url: ../shell-architecture
+      branches: HEAD
       start_path: docs
-    - url: https://github.com/openshellorg/nu-emit.git
-      branches: [main]
+    - url: ../nu-emit
+      branches: HEAD
       start_path: docs
-    - url: https://github.com/openshellorg/nu-require.git
-      branches: [main]
+    - url: ../nu-require
+      branches: HEAD
       start_path: docs
-    - url: https://github.com/openshellorg/about.git
-      branches: [main]
+    - url: ../about
+      branches: HEAD
       start_path: docs
-    - url: https://github.com/openshellorg/info.git
-      branches: [main]
+    - url: ../info
+      branches: HEAD
       start_path: docs
-    - url: https://github.com/openshellorg/prohelp.git
-      branches: [main]
+    - url: ../prohelp
+      branches: HEAD
       start_path: docs
-    - url: https://github.com/openshellorg/prohelp-cli.git
-      branches: [main]
+    - url: ../prohelp-cli
+      branches: HEAD
       start_path: docs
 
 ui:

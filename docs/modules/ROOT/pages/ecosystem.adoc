@@ -1,0 +1,25 @@
+= Ecosystem
+:description: OpenShellOrg documentation components across sibling repositories.
+
+OpenShellOrg docs are assembled from multiple Antora components — one per main project.
+
+== Standards and explanation
+
+* xref:open-shell-org::index.adoc[open-shell-org] — SOS certification and this hub
+* xref:shell-architecture::index.adoc[shell-architecture] — structured-shell thesis and layers
+
+== Companion libraries
+
+* xref:nu-require::index.adoc[nu-require] — require / relaunch under Nushell
+* xref:nu-emit::index.adoc[nu-emit] — emit structured JSONL rows from C
+
+== Orientation and help
+
+* xref:about::index.adoc[about] — machine orientation + command cards
+* xref:info::index.adoc[info] — modern GNU Info TUI
+* xref:prohelp::index.adoc[prohelp] — progressive help engine + global `help`
+* xref:prohelp-cli::index.adoc[prohelp-cli] — bridges into D CLI frameworks
+
+== Org site
+
+https://openshellorg.github.io/[openshellorg.github.io] — landing page (not an Antora component)
