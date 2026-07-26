@@ -1,0 +1,42 @@
+= Philosophy
+:description: What OpenShellOrg stands for, how it relates to Dev-Centr, and the NVIDIA OpenShell name collision.
+
+OpenShellOrg improves shells and CLIs through *standards, certification, and companion tooling* — not by shipping another shell language.
+
+== Two tracks
+
+. *Standardized Operations Syntax (SOS)* — unify human-friendly CLI flag syntax and certify compliant tools ("Save Our Syntax").
+. *Structured shell architecture* — advocate typed data pipelines so stdout is not forced to be both a pipe *and* a display canvas.
+  We endorse https://www.nushell.sh/[Nushell] as the Unix-centric reference.
+  Do *not* reinvent Nushell; document the model and ship helpers.
+
+Deeper thesis: xref:shell-architecture::index.adoc[shell-architecture].
+
+== Dev-Centr and OpenShellOrg
+
+The orgs *overlap* and should stay *aligned*.
+They should not merge.
+
+[cols="1,1"]
+|===
+| Dev-Centr | OpenShellOrg
+
+| Recommends and configures (e.g. Nushell for developers)
+| Standardizes and tools (SOS, companion libs, progressive help)
+
+| "What should my team run?"
+| "What should CLI authors converge on?"
+|===
+
+Rule of thumb: Dev-Centr points practitioners; OpenShellOrg writes specs and ships small libraries.
+Cross-link; do not duplicate governance.
+
+Detail: xref:shell-architecture::devcentr.adoc[Relationship] · xref:shell-architecture::division-of-labor.adoc[Division of labor]
+
+== Name collision
+
+OpenShellOrg is *not* https://github.com/NVIDIA/OpenShell[NVIDIA OpenShell].
+
+NVIDIA OpenShell is an agent sandbox runtime.
+We care about structured pipelines, CLI flag hygiene, and progressive help.
+Different problem domain; similar words — keep the disclaimer visible for newcomers.

@@ -1,4 +1,5 @@
 * xref:index.adoc[Home]
+* xref:philosophy.adoc[Philosophy]
 * xref:ecosystem.adoc[Ecosystem]
 * The Standard
 ** xref:standard-intro.adoc[Introduction]

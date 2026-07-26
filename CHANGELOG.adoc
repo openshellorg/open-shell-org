@@ -2,6 +2,7 @@
 
 == 2026-07-25
 
+* Add Philosophy page for Dev-Centr alignment and name-collision notes; keep profile visitor-facing.
 * Pin Valentus UI bundle to the rolling `v2` release line (not exact `v2.0.0`).
 * Assemble multi-repo Antora docs (shell-architecture, nu-*, about, info, prohelp, prohelp-cli).
 * Replace Starlight docs app with Antora + Valentus theme 2.0.0 and Pages CI.

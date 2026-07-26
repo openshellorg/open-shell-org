@@ -12,14 +12,10 @@ Two complementary tracks:
 . *Standardized Operations Syntax (SOS)* — unify human-friendly CLI flag syntax and certify compliant tools ("Save Our Syntax").
 . *Structured shell architecture* — advocate typed data pipelines (endorse https://www.nushell.sh/[Nushell]) so stdout is not forced to be both a pipe *and* a display canvas.
 
-== Ecosystem docs
+Read more: xref:philosophy.adoc[Philosophy].
 
-See xref:ecosystem.adoc[Ecosystem] for the full component map, including:
+== Where next
 
+* xref:ecosystem.adoc[Ecosystem] — map of every docs component
+* xref:standard-intro.adoc[SOS Introduction] — start the standard
 * xref:shell-architecture::index.adoc[shell-architecture] — structured-shell thesis
-* xref:nu-require::index.adoc[nu-require] / xref:nu-emit::index.adoc[nu-emit] — Nushell companions
-* xref:about::index.adoc[about], xref:info::index.adoc[info], xref:prohelp::index.adoc[prohelp], xref:prohelp-cli::index.adoc[prohelp-cli] — orientation and progressive help
-
-*Name collision:* We are not https://github.com/NVIDIA/OpenShell[NVIDIA OpenShell] (agent sandbox runtime).
-
-Dev-Centr *recommends/configures* Nushell for developers; OpenShellOrg *standardizes and tools*. Keep the orgs aligned, not merged.
