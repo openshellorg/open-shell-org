@@ -13,6 +13,12 @@ OpenShellOrg docs are assembled from multiple Antora components — one per main
 * xref:nu-require::index.adoc[nu-require] — require / relaunch under Nushell
 * xref:nu-emit::index.adoc[nu-emit] — emit structured JSONL rows from C
 
+== Planned / forked products
+
+Spec and ownership live in shell-architecture:
+
+* xref:shell-architecture::shell-host-and-env-refresh.adoc[env-refresh + terminal fork] — Nu-first `env-refresh` CLI (planned) and https://github.com/openshellorg/terminal[`openshellorg/terminal`] (fork of Windows Terminal) with per-tab env health + Fix/Insert desync bar; DevCentr prefers these when installed
+
 == Orientation and help
 
 * xref:about::index.adoc[about] — machine orientation + command cards
