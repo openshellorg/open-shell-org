@@ -8,6 +8,10 @@ site:
     site_home_label: OpenShellOrg home
     header_doc_title: OpenShellOrg Docs
 
+antora:
+  extensions:
+    - '@antora/lunr-extension'
+
 content:
   sources:
     - url: ./
