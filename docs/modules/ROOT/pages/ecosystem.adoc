@@ -12,6 +12,7 @@ OpenShellOrg docs are assembled from multiple Antora components — one per main
 
 * xref:nu-require::index.adoc[nu-require] — require / relaunch under Nushell
 * xref:nu-emit::index.adoc[nu-emit] — emit structured JSONL rows from C
+* https://github.com/openshellorg/project-map[project-map] / `lsgrouped` — project-type + file-role classification; grouped directory listing (not a PATH `ls` replacement)
 
 == Planned / forked products
 

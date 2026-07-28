@@ -34,6 +34,9 @@ content:
     - url: ../prohelp-cli
       branches: HEAD
       start_path: docs
+    - url: ../project-map
+      branches: HEAD
+      start_path: docs
 
 ui:
   bundle:

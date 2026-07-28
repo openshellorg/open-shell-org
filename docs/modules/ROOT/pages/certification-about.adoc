@@ -1,5 +1,5 @@
 = OSO Certification Program
-:description: How to certify your CLI application as SOS (Standardized Operations Syntax) compliant.
+:description: How to certify a CLI with the Open Shell Organization mark.
 
 The *Open Shell Organization* (OSO) provides a formal certification for command line utilities.
 
@@ -9,23 +9,44 @@ Certified tools earn the trust of system administrators and automation engineers
 
 == The Certification Mark
 
-Upon certification, the command line app is allowed (and encouraged) to display the certification in their error and help outputs on the first line.
+Upon certification, the command line app is allowed (and encouraged) to display the certification on the **first line** of help and error output (TTY).
 
-=== Required Branding Implementation
-
-The certification statement must be stylized using the specific OSO-Standard ANSI codes:
-
-*ANSI Implementation String:*
+=== Required text
 
 ----
-\x1b[37m{\x1b[37mO\x1b[31mS\x1b[94mO\x1b[37m}\x1b[0m Certified SOS-Standard
+{OSO} Certified - opensh.org
 ----
 
-=== Visual Identity
+The URL answers *who* certified the tool. Do not use a DevCentr subdomain in the mark.
 
-* *White Braces*: `{ }`
-* *White O*: `O`
-* *Red S*: `S`
-* *Light Blue O*: `O`
+=== Truecolor (TTY)
 
-This high-contrast palette ensures the mark is the first element the human eye anchors to.
+Use 24-bit `\x1b[38;2;R;G;Bm` sequences (shared helper: `project_map.badge` / OSO constants):
+
+| Segment | Hex |
+|---|---|
+| `{` `}` and `-` | `#9CA3AF` |
+| first `O` | `#D1D5DB` |
+| `S` | `#B85C5C` |
+| second `O` | `#5A9BB0` |
+| `Certified` | `#7DCEA0` (mint) |
+| `opensh.org` | `#3B6EA5` (cobalt) |
+
+Emit plain ASCII when piped, `--json`, or `NO_COLOR` is set. Bold (`\x1b[1m`) is optional and not locked.
+
+=== Optional second TTY line
+
+Product-specific hint (what the tool is / is not). Omit when piped or JSON.
+
+== Discoverability
+
+Certified CLIs on Unix-like hosts must ship:
+
+1. `--help`
+2. A **man** page (preferred), and ideally an **info** node
+
+`--help` alone is not enough. Some system `ls` installs ship neither man nor info — that fails this contract and is motivation for a higher bar, not a model to copy.
+
+== Domain
+
+Public home: https://opensh.org/[opensh.org] (owned). Wire DNS to GitHub Pages (or another docs host). `openshell.org` may be acquired later as a redirect.

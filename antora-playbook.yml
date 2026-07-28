@@ -34,6 +34,9 @@ content:
     - url: https://github.com/openshellorg/prohelp-cli.git
       branches: [main]
       start_path: docs
+    - url: https://github.com/openshellorg/project-map.git
+      branches: [main]
+      start_path: docs
 
 ui:
   bundle:
