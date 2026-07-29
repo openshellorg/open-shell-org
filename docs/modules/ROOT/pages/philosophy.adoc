@@ -9,6 +9,9 @@ OpenShellOrg improves shells and CLIs through *standards, certification, and com
 . *Structured shell architecture* — advocate typed data pipelines so stdout is not forced to be both a pipe *and* a display canvas.
   We endorse https://www.nushell.sh/[Nushell] as the Unix-centric reference.
   Do *not* reinvent Nushell; document the model and ship helpers.
+. *Entrypoint dispatch* — when the wrong host or wrong toolchain version is active, the process boundary must **auto-install (if needed) and re-exec** the correct one for this command, without rewriting the machine default.
+  See xref:shell-architecture::entrypoint-dispatch.adoc[Entrypoint Dispatch].
+  Broader lifecycle ownership (pin / health / repair / upgrade as a control plane) is DevCentr’s link:https://docs.devcentr.org/general-knowledge/explanation/infrastructure/toolchain-management.html[Toolchain Management Pattern].
 
 Deeper thesis: xref:shell-architecture::index.adoc[shell-architecture].
 
@@ -21,8 +24,8 @@ They should not merge.
 |===
 | Dev-Centr | OpenShellOrg
 
-| Recommends and configures (e.g. Nushell for developers)
-| Standardizes and tools (SOS, companion libs, progressive help)
+| Recommends and configures (e.g. Nushell for developers); Toolchain Management / TCF
+| Standardizes and tools (SOS, companion libs, progressive help, entrypoint dispatch)
 
 | "What should my team run?"
 | "What should CLI authors converge on?"
@@ -31,7 +34,9 @@ They should not merge.
 Rule of thumb: Dev-Centr points practitioners; OpenShellOrg writes specs and ships small libraries.
 Cross-link; do not duplicate governance.
 
-Detail: xref:shell-architecture::devcentr.adoc[Relationship] · xref:shell-architecture::division-of-labor.adoc[Division of labor]
+Detail: xref:shell-architecture::devcentr.adoc[Relationship] · xref:shell-architecture::division-of-labor.adoc[Division of labor] · xref:ecosystem.adoc[Ecosystem]
+
+Also: link:https://devcentr.org[devcentr.org] · link:https://docs.devcentr.org[docs.devcentr.org]
 
 == Name collision
 

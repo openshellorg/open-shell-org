@@ -7,6 +7,8 @@ OpenShellOrg docs are assembled from multiple Antora components — one per main
 
 * xref:open-shell-org::index.adoc[open-shell-org] — SOS certification and this hub
 * xref:shell-architecture::index.adoc[shell-architecture] — structured-shell thesis and layers
+* xref:shell-architecture::entrypoint-dispatch.adoc[Entrypoint Dispatch] — auto-install + re-exec at the shell boundary
+* xref:philosophy.adoc[Philosophy]
 
 == Companion libraries
 
@@ -26,6 +28,16 @@ Spec and ownership live in shell-architecture:
 * xref:info::index.adoc[info] — modern GNU Info TUI
 * xref:prohelp::index.adoc[prohelp] — progressive help engine + global `help`
 * xref:prohelp-cli::index.adoc[prohelp-cli] — bridges into D CLI frameworks
+
+== Partner: DevCentr
+
+Aligned, not merged — practitioner orchestration + Toolchain Management:
+
+* https://devcentr.org/[devcentr.org]
+* https://docs.devcentr.org/[docs.devcentr.org]
+* https://github.com/dev-centr[github.com/dev-centr]
+* link:https://docs.devcentr.org/general-knowledge/explanation/infrastructure/toolchain-management.html[Toolchain Management Pattern]
+* xref:shell-architecture::devcentr.adoc[Relationship] · xref:shell-architecture::division-of-labor.adoc[Division of labor]
 
 == Org site
 
