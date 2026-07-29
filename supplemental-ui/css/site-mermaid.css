@@ -1,0 +1,18 @@
+/* Mermaid diagrams in Antora content */
+.adt-mermaid,
+div.mermaid {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem 0.75rem;
+  overflow-x: auto;
+  border: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+  border-radius: 0.5rem;
+  background: color-mix(in srgb, currentColor 4%, transparent);
+}
+
+.adt-mermaid svg,
+div.mermaid svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-inline: auto;
+}
