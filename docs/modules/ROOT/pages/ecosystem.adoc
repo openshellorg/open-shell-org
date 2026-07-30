@@ -29,6 +29,7 @@ Spec and ownership live in shell-architecture:
 * xref:info::index.adoc[info] — modern GNU Info TUI
 * xref:prohelp::index.adoc[prohelp] — progressive help engine + global `help`
 * xref:prohelp-cli::index.adoc[prohelp-cli] — bridges into D CLI frameworks
+* xref:terminal-gui-prompts::index.adoc[terminal-gui-prompts] — promote confirm/input to native GUI dialogs; always echo prompt text for pipes
 
 == Partner: DevCentr
 

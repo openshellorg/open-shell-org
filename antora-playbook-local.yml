@@ -45,6 +45,9 @@ content:
     - url: ../actor-shell
       branches: HEAD
       start_path: docs
+    - url: ../terminal-gui-prompts
+      branches: HEAD
+      start_path: docs
 
 ui:
   bundle:

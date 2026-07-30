@@ -2,6 +2,7 @@
 
 == 2026-07-30
 
+* Assemble https://github.com/openshellorg/terminal-gui-prompts[`terminal-gui-prompts`] Antora component into the docs playbooks; list it under Orientation and help on the Ecosystem page.
 * Assemble https://github.com/openshellorg/actor-shell[`actor-shell`] Antora component into the docs playbooks; list it under Planned / forked products on the Ecosystem page.
 
 == 2026-07-26

@@ -45,6 +45,9 @@ content:
     - url: https://github.com/openshellorg/actor-shell.git
       branches: [main]
       start_path: docs
+    - url: https://github.com/openshellorg/terminal-gui-prompts.git
+      branches: [main]
+      start_path: docs
 
 ui:
   bundle:
