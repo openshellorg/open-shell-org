@@ -42,6 +42,9 @@ content:
     - url: https://github.com/openshellorg/project-map.git
       branches: [main]
       start_path: docs
+    - url: https://github.com/openshellorg/actor-shell.git
+      branches: [main]
+      start_path: docs
 
 ui:
   bundle:

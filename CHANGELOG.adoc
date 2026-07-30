@@ -1,5 +1,9 @@
 = Changelog
 
+== 2026-07-30
+
+* Assemble https://github.com/openshellorg/actor-shell[`actor-shell`] Antora component into the docs playbooks; list it under Planned / forked products on the Ecosystem page.
+
 == 2026-07-26
 
 * Ecosystem page: planned/forked products — `env-refresh` + https://github.com/openshellorg/terminal[`openshellorg/terminal`] (Windows Terminal fork; per-tab env health + Fix/Insert bar).

@@ -42,6 +42,9 @@ content:
     - url: ../project-map
       branches: HEAD
       start_path: docs
+    - url: ../actor-shell
+      branches: HEAD
+      start_path: docs
 
 ui:
   bundle:
