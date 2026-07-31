@@ -1,6 +1,6 @@
 site:
   title: OpenShellOrg Docs
-  url: https://openshellorg.github.io/docs
+  url: https://docs.opensh.org
   start_page: open-shell-org::index.adoc
   keys:
     header_logo: logo.svg

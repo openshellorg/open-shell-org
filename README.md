@@ -82,7 +82,7 @@ pnpm docs:local
 
 ## Documentation
 
-Published docs: https://openshellorg.github.io/docs/
+Published docs: https://docs.opensh.org/
 
 Org site: https://openshellorg.github.io/
 

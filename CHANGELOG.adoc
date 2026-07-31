@@ -2,6 +2,7 @@
 
 == 2026-07-31
 
+* Site URL is `https://docs.opensh.org` (Pages CNAME).
 * Rename hub repository to https://github.com/openshellorg/docs[docs] (local + remote), matching Dev-Centr; Antora site base is now `/docs/`. Antora hub component id remains `open-shell-org`.
 
 == 2026-07-30
