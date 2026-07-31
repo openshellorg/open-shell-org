@@ -1,6 +1,6 @@
-# Open Shell Organization (OSO)
+﻿# OpenShellOrg Docs
 
-The **Open Shell Organization** improves shells and CLIs through **standards, certification, and companion tooling**.
+Documentation hub for https://github.com/openshellorg[OpenShellOrg] — Antora site aggregating org projects, plus SOS certification packages in this monorepo.
 
 <p align="center">
   <img src="assets/brand/logo-mark.svg" width="160" height="160" alt="OpenShellOrg" />
@@ -27,17 +27,19 @@ SOS remains the certification/flag work in this monorepo. Structured-shell direc
 
 Dev-Centr **recommends/configures** Nushell for developers; OpenShellOrg **standardizes and tools**. Keep the orgs aligned, not merged.
 
-## Monorepo structure
+## Repository structure
 
 ```
-open-shell-org/
+docs/                      # this repo (openshellorg/docs)
 ├── apps/
 │   └── main/              # Main website (SolidStart)
-├── docs/                  # Antora documentation (Valentus theme)
+├── docs/                  # Antora hub component (SOS, philosophy, ecosystem)
 ├── packages/
-│   ├── sos-grammar/       # @sos/grammar - SOS syntax grammar definitions
-│   └── sos-validator-core/ # @sos/validator-core - Core validation library
-├── assets/brand/          # Logo SVG/PNG (includes 256px GitHub avatar)
+│   ├── sos-grammar/       # @sos/grammar
+│   └── sos-validator-core/
+├── assets/brand/
+├── antora-playbook.yml    # production (aggregates sibling repos)
+├── antora-playbook-local.yml
 └── package.json
 ```
 
@@ -46,7 +48,7 @@ open-shell-org/
 | Path | Description |
 |------|-------------|
 | `apps/main` | Organization website (SolidStart) |
-| `docs/` | SOS specification (Antora + Valentus 2.0.0) |
+| `docs/` | Hub Antora component (SOS + org pages) |
 | `@sos/grammar` | Grammar definitions for parsing SOS syntax |
 | `@sos/validator-core` | Core validation logic for SOS compliance |
 
@@ -60,8 +62,8 @@ open-shell-org/
 ### Installation
 
 ```bash
-git clone https://github.com/openshellorg/open-shell-org.git
-cd open-shell-org
+git clone https://github.com/openshellorg/docs.git
+cd docs
 pnpm install
 ```
 
@@ -74,11 +76,13 @@ pnpm build
 
 # Docs (Antora)
 pnpm docs
+# or local sibling checkouts:
+pnpm docs:local
 ```
 
 ## Documentation
 
-Published docs: https://openshellorg.github.io/open-shell-org/
+Published docs: https://openshellorg.github.io/docs/
 
 Org site: https://openshellorg.github.io/
 

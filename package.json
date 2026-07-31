@@ -1,5 +1,5 @@
 {
-  "name": "open-shell-org",
+  "name": "docs",
   "private": true,
   "packageManager": "pnpm@10.28.2",
   "scripts": {

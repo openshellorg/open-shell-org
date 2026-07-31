@@ -1,5 +1,9 @@
 = Changelog
 
+== 2026-07-31
+
+* Rename hub repository to https://github.com/openshellorg/docs[docs] (local + remote), matching Dev-Centr; Antora site base is now `/docs/`. Antora hub component id remains `open-shell-org`.
+
 == 2026-07-30
 
 * Assemble https://github.com/openshellorg/terminal-gui-prompts[`terminal-gui-prompts`] Antora component into the docs playbooks; list it under Orientation and help on the Ecosystem page.
