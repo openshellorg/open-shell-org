@@ -1,18 +1,18 @@
-﻿<a id="readme-top"></a>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
+<a id="readme-top"></a>
 <div align="center">
-  <h1>OpenShellOrg Docs</h1>
-  <p>OpenShellOrg documentation hub. Antora site aggregating openshellorg projects (SOS + companion tooling docs).</p>
-  <p>
-    <a href="https://docs.opensh.org/">Explore the docs</a>
-    ·
+  <a href="https://github.com/openshellorg/docs/graphs/contributors"><img src="https://img.shields.io/github/contributors/openshellorg/docs.svg?style=for-the-badge" alt="Contributors"></a>
+  <a href="https://github.com/openshellorg/docs/network/members"><img src="https://img.shields.io/github/forks/openshellorg/docs.svg?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/openshellorg/docs/stargazers"><img src="https://img.shields.io/github/stars/openshellorg/docs.svg?style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/openshellorg/docs/issues"><img src="https://img.shields.io/github/issues/openshellorg/docs.svg?style=for-the-badge" alt="Issues"></a>
+  <br />
+  <h3 align="center">OpenShellOrg Docs</h3>
+  <p align="center">
+    OpenShellOrg documentation hub. Antora site aggregating openshellorg projects (SOS + companion tooling docs).<br />
+    <a href="https://docs.opensh.org/"><strong>Explore the docs</strong></a>
+    <br />
+    <br />
     <a href="https://github.com/openshellorg/docs/issues">Report Bug</a>
-    ·
+    &middot;
     <a href="https://github.com/openshellorg/docs/issues">Request Feature</a>
   </p>
 </div>
@@ -121,12 +121,3 @@ Site: https://openshellorg.github.io
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/openshellorg/docs.svg?style=for-the-badge
-[contributors-url]: https://github.com/openshellorg/docs/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/openshellorg/docs.svg?style=for-the-badge
-[forks-url]: https://github.com/openshellorg/docs/network/members
-[stars-shield]: https://img.shields.io/github/stars/openshellorg/docs.svg?style=for-the-badge
-[stars-url]: https://github.com/openshellorg/docs/stargazers
-[issues-shield]: https://img.shields.io/github/issues/openshellorg/docs.svg?style=for-the-badge
-[issues-url]: https://github.com/openshellorg/docs/issues
